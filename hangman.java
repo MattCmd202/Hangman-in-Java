@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-// Project made by BSCS, CCS :>
-
 public class hangman {
     public static void main(String[] args) throws FileNotFoundException {
 
@@ -26,7 +24,7 @@ public class hangman {
 
         List<Character> PlayerGuesses = new ArrayList<>();
 
-        int lives = 6;  //change mo nalang yung number kung ilan lives gusto mo HHAAHHA
+        int lives = 6;  //You can change the lives here
 
         System.out.println("\nYou have "+ lives +" lives.");
 
