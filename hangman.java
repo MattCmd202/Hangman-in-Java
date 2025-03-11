@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class hangman {
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner scnr = new Scanner(new File("C:/Users/PC/Documents/test/testing.txt"));
+        Scanner scnr = new Scanner(new File("C:/Users/PC/Documents/test/testing.txt")); //Open a notepad and put your own words and linked it to this.
         Scanner keyboard = new Scanner(System.in);
 
         List<String> words = new ArrayList<>();
